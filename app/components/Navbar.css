@@ -1,0 +1,46 @@
+/* app/components/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0070f3; /* Change to your preferred background color */
+    color: white;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 1.5rem; /* Space between links */
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px; /* Rounded corners for hover effect */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighten background on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  .logout-button {
+    background-color: #ff4d4d; /* Red background for the logout button */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding for the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor pointer on hover */
+    margin-left: 20px; /* Space from other links */
+}
+
+.logout-button:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+}

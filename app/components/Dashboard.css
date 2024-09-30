@@ -1,0 +1,64 @@
+/* app/components/Dashboard.css */
+
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  .profile-section {
+    margin-bottom: 30px;
+  }
+  
+  .progress-bar-container {
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 30px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-bar-fill {
+    height: 100%;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .xp-line-graph {
+    margin-top: 30px;
+  }
+  .badges {
+    display: flex;
+    gap: 10px; /* Space between badges */
+    margin-top: 10px; /* Add margin for better layout */
+    width: 50px;
+  }
+  
+  .badge-image {
+    width: 80px; /* Set the size of badge images */
+    height: 90px; /* Set the size of badge images */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .badge-image:hover {
+    transform: rotateY(360deg); /* Rotate the badge on hover */
+  }
+  
+  .progress-container {
+    background-color: #f3f3f3; /* Background for the progress bar */
+    border-radius: 5px; /* Rounded corners for the progress bar */
+    width: 100%;
+    height: 20px; /* Height of the progress bar */
+    margin-top: 20px; /* Margin for spacing */
+  }
+  
+  .progress-bar {
+    background-color: green; /* Color of the progress bar */
+    height: 100%; /* Full height of the container */
+    border-radius: 5px; /* Rounded corners for the progress bar */
+  }
+  
