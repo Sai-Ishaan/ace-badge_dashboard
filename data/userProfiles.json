@@ -1,0 +1,21 @@
+[
+    {
+      "email": "125015100@sastra.ac.in",
+      "name": "Sai Ishaan Balaji",
+      "registerNumber": "125015100",
+      "xp": 1000,
+      "badges": ["Contributor"],
+      "eventsAttended": 1,
+      "linkedinUrl": "https://www.linkedin.com/in/sai-ishaan-balaji-780285249/"
+    },
+    {
+      "email": "janedoe@example.com",
+      "name": "Shubham Pandey",
+      "registerNumber": "125015101",
+      "xp": 3000,
+      "badges": ["Contributor"],
+      "eventsAttended": 2,
+      "linkedinUrl": "https://www.linkedin.com/in/sai-ishaan-balaji-780285249/"
+    }
+  ]
+  
