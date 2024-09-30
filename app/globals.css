@@ -1,0 +1,130 @@
+/* app/globals.css */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.login-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container input {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.login-container button {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.navbar {
+  background-color: #3b8bba;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.login-link a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover,
+.login-link a:hover {
+  text-decoration: underline;
+}
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.calendar-container {
+  margin-top: 20px;
+}
+
+.event-list {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.event-item {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+}
+.login-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #3b8bba, #6f42c1);
+}
+
+.login-box {
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.login-btn {
+  background-color: #3b8bba;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.login-btn:hover {
+  background-color: #6f42c1;
+}
